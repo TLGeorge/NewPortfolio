@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet"> -->
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
@@ -40,10 +41,10 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                     </ul>
                     <!-- Search Box -->
@@ -67,13 +68,16 @@
                     <div class="row">
                         <!--Grid column-->
                         <div class="col-md-12 mb-4 text-white text-center">
-                            <h1 class="h1-reponsive text-white text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+                            <h1 class="h1-reponsive text-warning text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
                                 data-wow-delay="0.3s"><strong>Taneisha L. George</strong></h1>
                             <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                             <h5 class="text-uppercase mb-4 text-white wow fadeInDown" data-wow-delay="0.4s">
                                 <strong>Full Stack Web Developer</strong></h5>
-                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Portfolio</a>
-                            <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a>
+                            <a id="about-btn" href="#about" class="btn btn-outline-white wow fadeInDown text-white"
+                                data-wow-delay="0.4s">ABOUT ME</a>
+                            <a id="portfolio-btn" href="portfolio.html"
+                                class="btn btn-outline-white wow fadeInDown text-white"
+                                data-wow-delay="0.4s">PORTFOLIO</a>
                         </div>
                         <!--Grid column-->
                     </div>
@@ -91,8 +95,10 @@
         <div class="container">
             <!--Grid row-->
             <div class="row py-5">
-                <!--Grid column-->
-                <div class="col-md-12 text-center">
+                <!--Grid column "ABOUT ME" SECTION-->
+                <div id="about" class="col-md-12 text-center">
+                    <h5 class="text-uppercase mb-4 text-dark">
+                        <strong>ABOUT ME</strong></h5>
                     <p>I am a Junior Full Stack Web Developer currently enrolled in the UPENN LPS
                         Full-Stack Web Development Coding Bootcamp. My skills aquired to date include
                         Browser-Based Technologies (HTML, CSS, JavaScript, jQuery) and Deployment (Git), Java, Databases
@@ -115,6 +121,29 @@
         </div>
     </main>
     <!--Main Layout-->
+    <!-- CONTACT/FOOTER -->
+    </div>
+    <footer id="Contact">
+        <div class="grid-container fluid main-section grid-margin-y">
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell text-white text-center footer-text">
+                    <h6 class="text-uppercase mb-4 text-dark">
+                        <strong>Let's Connect!</strong></h6>
+                    <a href="mailto:taneishalg@gmail.com">TaneishaLG@gmail.com</a> |
+                    <a href="tel:2152785611">(215) 278-5611</a> | <a
+                        href="https://docs.google.com/document/d/1u4KrINLFFiSrbYeM-DxxIiYEV5QKHeKjuBfQPeGxJ04/edit?usp=sharing">Resume</a>
+                    | <a href="https://www.linkedin.com/in/taneishalgeorge/">
+                        <img src="images/LI-Logo.png" class="img-responsive" width="10%"></a>
+                    <iframe class="github-btn"
+                        src="https://ghbtns.com/github-btn.html?user=TLGeorge&type=follow&count=true" frameborder="0"
+                        scrolling="0" width="170px" height="18px"></iframe>
+                    <p>&copy; Copyright 2020 by Taneisha L. George</p>
+
+                </div>
+            </div>
+
+    </footer>
+    </div>
     <!-- End your project here-->
 
     <!-- jQuery -->
