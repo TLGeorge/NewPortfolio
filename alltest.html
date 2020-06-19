@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet"> -->
+
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Material Design Bootstrap -->
@@ -95,15 +95,8 @@
     <!--Main Layout-->
     <main>
         <!-- ABOUT ME SECTION -->
-        <div class="container">
-            <!--Grid row-->
-            <div class="row py-5">
-                <!--Grid column "ABOUT ME" SECTION Header-->
-                <div id="about" class="col-md-12 text-center">
-                    <h3 class="text-uppercase mb-4 text-success">
-                        <strong>About Me</strong></h3>
-                </div>
-            </div>
+        <div id="about" class="container">
+
 
             <!--Grid row "ABOUT ME" PICTURE -->
             <div class="row">
@@ -128,7 +121,15 @@
             </div>
             <!-- END Grid row "ABOUT ME" PICTURE  -->
 
-            <div class="row py-5">
+            <!-- "ABOUT ME" SECTION Header -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="text-uppercase mb-4 text-success">
+                        <strong>About Me</strong></h3>
+                </div>
+            </div>
+
+            <div class="row ">
                 <!--Grid column "ABOUT ME" SECTION-->
                 <div class="col-md-12 text-center">
                     <div class="mb-4 text-dark">
@@ -175,9 +176,9 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
-                                    <img class="card-img-top img-fluid" src="./images/fitlevin.png"
-                                        alt="Card image cap">
+                                <div class="view-cascade">
+                                    <img class="card-img-top img-fluid" src="./images/fitlevin.png" alt="Card image cap"
+                                        href="https://personal-trainer-portal.herokuapp.com/login">
                                     <a>
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
@@ -216,8 +217,9 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
-                                    <img class="card-img-top img-fluid" src="./images/C19RI.jpg" alt="Card image cap">
+                                <div class="view-cascade ">
+                                    <img class="card-img-top img-fluid" src="./images/C19RI.jpg" alt="Card image cap"
+                                        href="https://dolinay1.github.io/Covid-19-Donation-App/">
                                     <a>
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
@@ -256,9 +258,8 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
-                                    <img class="card-img-top img-fluid"
-                                        src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
+                                <div class="view-cascade">
+                                    <img class="card-img-top img-fluid" src="./images/eatdaburger.jpg"
                                         alt="Card image cap">
                                     <a>
                                         <div class="mask rgba-white-slight"></div>
@@ -271,8 +272,13 @@
                                     <!-- Title -->
                                     <h4 class="font-weight-bold card-title">Eat-Da-Burger</h4>
                                     <!-- Text -->
-                                    <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                                        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+                                    <p class="card-text">A restaurant app that lets users input the names of burgers
+                                        they'd like to eat.</p>
+                                    <p> Technologies used: HTML5, CSS3, JavaScript, jQuery; SQL,
+                                        Heroku,NodeJS, MySQL, Express, Handlebars,
+                                        Bootstrap
+                                        framework.
+                                    </p>
                                     <!-- Button -->
                                     <a class="btn btn-unique text-success">View Git Hub</a>
 
@@ -298,7 +304,7 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
+                                <div class="view-cascade">
                                     <img class="card-img-top img-fluid"
                                         src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
                                         alt="Card image cap">
@@ -315,6 +321,7 @@
                                     <!-- Text -->
                                     <p class="card-text">An application which allows you to view and manage the
                                         departments, roles, and employees in a company.</p>
+                                    <p> Technologies used: HTML5, CSS3, JavaScript, jQuery; Node, MySQL.</p>
                                     <!-- Button -->
                                     <a class="btn btn-unique text-success"
                                         href="https://github.com/TLGeorge/EmployeeCMS">View GitHub</a>
@@ -334,9 +341,9 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
+                                <div class="view-cascade">
                                     <img class="card-img-top img-fluid" src="./images/notetaker.jpg"
-                                        alt="Card image cap">
+                                        alt="Card image cap" href="https://arcane-tundra-29946.herokuapp.com/">
                                     <a>
                                         <div class="mask rgba-white-slight"></div>
                                     </a>
@@ -373,7 +380,7 @@
                             <div class="card card-cascade narrower">
 
                                 <!-- Card image -->
-                                <div class="view view-cascade overlay">
+                                <div class="view-cascade">
                                     <img class="card-img-top img-fluid"
                                         src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
                                         alt="Card image cap">
@@ -390,6 +397,7 @@
                                     <!-- Text -->
                                     <p class="card-text">A Node CLI that takes in information about employees and
                                         generates an HTML webpage that displays summaries for each employee.</p>
+                                    <p> Technologies used: HTML5, CSS3, JavaScript, jQuery; Node.</p>
                                     <!-- Button -->
                                     <a class="btn btn-unique text-success"
                                         href="https://github.com/TLGeorge/Employee-Summary-Template-Engine">View
